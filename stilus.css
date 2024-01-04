@@ -1,0 +1,104 @@
+* {
+  margin: auto;
+  padding: auto;
+  background-image: url(design/teglafal.jpg);
+  max-width: 1000px;
+}
+body {
+  font-family: Arial, Verdana, sans-serif;
+  color: beige;
+  background-image: none;
+  background-color: #333333;
+}
+main {
+  background-repeat: no-repeat;
+  background-image: none;
+  width: 80%;
+  max-width: 1000px;
+}
+.container {
+  background-image: none;
+  background-color: black;
+  border: 10px;
+  border-color: white;
+  border-width: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "h h h"
+    "sf a as";
+}
+
+article {
+  background-color: black;
+  background-image: none;
+}
+
+article ul {
+  background-color: black;
+  background-image: none;
+}
+
+article li {
+  background-image: none;
+}
+
+article h2 {
+  background-color: black;
+}
+.sorfurdo {
+  background-image: none;
+  grid-area: sf;
+}
+
+aside {
+  background-color: #333333;
+  margin-top: 10px;
+  background-image: none;
+  padding: 50px;
+  padding-bottom: 480px;
+}
+
+aside li {
+  background-color: #333333;
+  border: 1px solid;
+  padding: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  list-style: none;
+  background-image: none;
+}
+
+aside ul {
+  background-image: none;
+}
+
+ul li a {
+  background-color: #333333;
+  color: red;
+}
+
+header {
+  background-image: none;
+  background-size: cover;
+  max-width: 1000px;
+  grid-area: h;
+  text-align: justify;
+}
+footer {
+  grid-area: f;
+  border: gray;
+  border-style: solid;
+  border-width: 10px;
+  background-color: gray;
+}
+h1 {
+  position: absolute;
+  border-image: none;
+  top: 8px;
+}
+h2 {
+  background-image: none;
+}
